@@ -1,0 +1,143 @@
+*{
+    font-weight: bold;
+    font-family: 'Nike Futura ND', 'Helvetica Now Text Medium', 'Helvetica', 'Arial', 'sans-serif'
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+#page-video{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#page-products{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+#page-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(221, 12, 12);
+}
+#page-trendings{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(126, 255, 6);
+}
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#menu{
+    width: 720px;
+    height: 380px;
+    background-color:rgb(213, 59, 59);
+    display: flex;
+} 
+#page-video-img{
+    width:0px;
+    height:0px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#page-slideshow-saleoff{
+    width:600px;
+    height:400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav-bar{
+    display: flex;
+}
+#nike-4-logo{
+    padding-right: 300px;
+    width: 50px;
+    height: 50px;
+}
+.nav-button{
+    border: 0px;
+    background-color: white
+}
+
+#page-intro{
+    width:100%;
+    height:100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#intro-left{
+    width:50%;
+    height:100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction:column;
+}
+
+#intro3{
+    width:50%;
+    height:100%;
+    background-color: green;
+}
+
+#intro1{
+    width:100%;
+    height:50%;
+    background-color: navy;
+}
+
+#intro2{
+    width:100%;
+    height:50%;
+    background-color: beige;
+}
+.page-intro-img{
+    width:0px;
+    height:0px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.menu-column{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30PX;
+    width:min-content;
+}
+.menu-header{
+    color: black;
+    font-size: 45px;
+}
+
+#ad{
+    padding-left: 300px;
+    font-size: 50px;
+}
+#ad2{
+    padding-left:450px;
+    font-size: 50px;
+}
